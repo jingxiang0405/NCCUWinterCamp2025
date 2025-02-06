@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    font-family: 'Noto Sans TC', 'Microsoft YaHei', '微軟正黑體', 'STHeiti', '冬青黑體', 'Heiti SC', sans-serif;
+    /* background-color: #272a36!important; */
+}
+h1 {
+    font-size: 90px!important;
+    font-weight: 700;
+}
+h2 {
+    font-size: 80px!important;
+    line-height: 1.2!important;
+    font-weight: 500;
+    color: #bf95f9;
+}
+h3 {
+    font-size: 44px!important;
+    line-height: 1.2!important;
+    color: #bf95f9;
+}
+h4 {
+    font-size: 26px!important;
+    line-height: 1.2!important;
+    font-weight: inherit;
+}
+h5 {
+    font-size: 22px!important;
+    font-weight: inherit;
+    line-height: 1.2!important;
+}
+h6 {
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 1.2!important;
+}
+p,li {
+    font-size: 32px!important;
+    line-height: 1.3!important;
+}
+strong {
+    color: hsl(31, 100%, 71%);
+}
+code {
+    color: hsl(135, 94%, 65%);
+}
+
+/* Global styles for p and li */
+p, li {
+    font-size: 32px !important; /* Set a global font size */
+    line-height: 1.2 !important; /* Set a global line-height */
+}
+
+p .katex {
+    font-size: 1.1em !important; /* Set desired font size for .katex */
+    line-height: initial !important; /* Set desired line-height for .katex */
+}
+
+.no-ligatures {
+    font-variant-ligatures: none;
+}
+
+
+/* Exclude p and li inside the specific prose container */
+.prose.overflow-auto.outline-none.slidev-note.border-transparent.border-2.w-full.max-w-full.h-full.overflow-auto.p-2.lg\:p-4 p,
+.prose.overflow-auto.outline-none.slidev-note.border-transparent.border-2.w-full.max-w-full.h-full.overflow-auto.p-2.lg\:p-4 li,
+[data-v-f5ee02a7][table-cell] p,
+[data-v-f5ee02a7][table-cell] li {
+    font-size: inherit !important; /* Inherit font size from parent */
+    line-height: inherit !important; /* Inherit line-height from parent */
+}
+
+/* Exclude ordered list items inside the specified div */
+[data-v-f5ee02a7][table-cell] ol li {
+    font-size: inherit !important; /* Inherit font size from parent */
+    line-height: inherit !important; /* Inherit line-height from parent */
+}
+
+/* Specifically set the font size and line-height for p and li tags in the excluded divs */
+[data-v-f5ee02a7][table-cell] p,
+[data-v-f5ee02a7][table-cell] li,
+.prose.overflow-auto.outline-none.slidev-note.border-transparent.border-2.w-full.max-w-full.h-full.overflow-auto.p-2.lg\:p-4 p,
+.prose.overflow-auto.outline-none.slidev-note.border-transparent.border-2.w-full.max-w-full.h-full.overflow-auto.p-2.lg\:p-4 li {
+    font-size: inherit !important; /* Reset to default or specified size */
+    line-height: inherit !important; /* Reset to default line-height */
+}
+
+[data-v-f5ee02a7][table-cell] p,
+[data-v-f5ee02a7][table-cell] li {
+    font-size: initial !important; /* Reset to default or specified size */
+    line-height: normal !important; /* Reset to default line-height */
+}
+
+div[data-v-f5ee02a7][table-cell][py-2][pr-4][w-full] {
+    font-size: initial !important;
+    line-height: normal !important;
+}
+
+
+.mybody {
+    font-size: 32px;
+    line-height: 1.2!important;
+}
+.smaller ul li p {
+    font-size: 26px!important;
+    line-height: 1.2!important;
+}
+.smaller ul li{
+    font-size: 26px!important;
+    line-height: 1.2!important;
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.noapply {
+    font-size: 15px;
+    line-height: 1.2!important;
+}
