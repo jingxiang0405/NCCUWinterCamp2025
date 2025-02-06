@@ -74,7 +74,7 @@ void printArray(int arr[], int size) {
 int main() {
     int N;
     scanf("%d", &N);
-    int arr[10000000];
+    int arr[50005];
     for(int i = 0; i < N; i++){
         scanf("%d", &arr[i]);
     }
